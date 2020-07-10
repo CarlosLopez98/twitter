@@ -70,6 +70,10 @@
   border-radius: 25px;
 }
 
+.btn:hover {
+  background-color: #1c8cd1;
+}
+
 .btn a {
   padding: 10px 0;
   margin-left: 35%;
@@ -86,7 +90,144 @@
   grid-area: Main;
 }
 
+.Main .header {
+  padding: 12px 10px;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.Main .header h2 {
+  font-size: 20px;
+}
+
+/* Sidebar */
+
 .Sidebar {
   grid-area: Sidebar;
   border-left: 1px solid #E1E1E1;
+}
+
+.Sidebar .search-bar {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f5f8fa;
+  border-radius: 25px;
+}
+
+.Sidebar .search-bar span {
+  font-size: 18px;
+  color: #797979;
+  padding-right: 5px;
+}
+
+.Sidebar .search-bar input {
+  width: 85%;
+  height: 35px;
+  background-color: #f5f8fa;
+  border: 0px solid black;
+  font-size: 15px;
+  color: #353535;
+  padding-left: 8px;
+}
+
+.Sidebar .search-bar:focus-within {
+  border: 2px solid rgb(29, 161, 242);
+  background-color: white;
+}
+
+.Sidebar .search-bar input:focus {
+  background-color: white;
+}
+
+/* card */
+.card {
+  width: 90%;
+  margin: 16px auto;
+  padding-top: 5px;
+  background-color: #f5f8fa;
+  border-radius: 18px;
+}
+
+.card-title {
+  border-bottom: 1px solid #E1E1E1;
+  padding: 10px 15px;
+}
+
+.card-title h5 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.card-section {
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.card-section:hover {
+  background-color: #e5e9ec;
+}
+
+.card-section .section-content {
+  padding: 10px 15px;
+}
+
+.card-section .section-content .text {
+  width: 70%;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.card-section .section-content h6 {
+  color: #797979;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.card-section .section-content h5 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.card-section .section-content .card-img {
+  display: inline-block;
+  width: 28%;
+  margin: auto 0;
+}
+
+.card-section .section-content .card-img img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.card-section .section-content p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #797979;
+}
+
+.card-bottom {
+  padding: 10px 15px;
+  border: none;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.card-section a {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+
+.Sidebar .footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Sidebar .footer a, .Sidebar .footer p{
+  color: #797979;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 4px;
+  margin-top: 6px;
 }
