@@ -97,6 +97,167 @@
 
 .Main .header h2 {
   font-size: 20px;
+  font-weight: bolder;
+}
+
+.publish {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 12px;
+}
+
+.publish .avatar {
+  float: left;
+  width: 10%;
+  margin-right: 10px;
+}
+
+.publish .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.publish form {
+  display: inline-block;
+  float: left;
+  width: 88%;
+}
+
+.publish form input[type="text"] {
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 18px;
+}
+
+.publish form .options {
+  float: left;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.publish form .options a {
+  padding: 5px;
+  color: rgb(29, 161, 242);
+}
+
+.publish form .options a:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 50%;
+}
+
+.publish form input[type="submit"] {
+  float:right;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(29, 161, 242, 0.5);
+  color: white;
+  font-weight: bold;
+}
+
+.space {
+  background-color: #E1E1E1;
+  height: 10px;
+}
+
+.Main .tweet {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 12px;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.tweet .avatar {
+  float: left;
+  width: 10%;
+  margin-right: 10px;
+}
+
+.tweet .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.tweet .content {
+  display: inline-block;
+  float: left;
+  width: 88%;
+}
+
+.tweet .content .arroba {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.tweet .content h3 {
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.tweet .content h4 {
+  float: left;
+  font-size: 14px;
+  color: #797979;
+}
+
+.tweet .content .text {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.tweet .content .text a {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+.tweet .content .media {
+  width: 100%;
+}
+
+.tweet .content .media img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.tweet .content .actions {
+}
+
+.tweet .content .actions a {
+  margin-right: 20%;
+  color: #797979;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.tweet .content .actions a:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 50%;
+  color: rgb(29, 161, 242);
+}
+
+.tweet .content .actions .comment:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  color: rgb(29, 161, 242);
+}
+
+.tweet .content .actions .retweet:hover {
+  background-color: rgba(33, 209, 83, 0.1);
+  color: rgb(33, 209, 83);
+}
+
+.tweet .content .actions .like:hover {
+  background-color: rgba(222, 34, 76, 0.1);
+  color: rgb(222, 34, 76);
+}
+
+.tweet .content .actions a small {
+  margin-left: 5px;
 }
 
 /* Sidebar */
