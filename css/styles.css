@@ -169,6 +169,11 @@
   border-bottom: 1px solid #E1E1E1;
 }
 
+.Main .tweet:hover {
+  background-color: #f5f8fa;
+  cursor: pointer;
+}
+
 .tweet .avatar {
   float: left;
   width: 10%;
@@ -326,6 +331,7 @@
 
 .card-section:hover {
   background-color: #e5e9ec;
+  cursor: pointer;
 }
 
 .card-section .section-content {
